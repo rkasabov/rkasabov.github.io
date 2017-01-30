@@ -1,0 +1,145 @@
+.largeImage {
+
+	width: 100%;
+}
+
+.mediumImage {
+	width: 45%;
+}
+
+.infoPageHeaders {
+	font-family: lucida grande;
+	color: black;
+	font-size: 60px;
+	text-align: left;
+	color: #3b3a36;
+
+}
+
+.main {
+    margin-top: 50px; /* Add a top margin to avoid content overlay */
+}
+
+.navigation {
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	font-family: Verdana;
+
+	/*Eliminates bullet points*/
+	list-style-type: none;
+
+	margin: 0;
+	padding: 0;
+
+	/*Content overflow is clipped*/
+	overflow: hidden;
+
+	background-color: #333;
+
+}
+
+.navList {
+	float: left;
+
+}
+
+.navLink {
+
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+
+/*Change background to black and text to white while hovering*/
+.navLink:hover {
+
+	background-color: #111;
+	color: white;
+}
+
+#page{ margin: 20px; }
+
+/*Adds a margin with padding, positioning content nicer*/
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+	
+/*Puts a box shadow below content*/
+#content { box-shadow: 2px 2px 40px #999;}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+
+}
+
+body{
+    font-size: 80%; 
+    width: 100%; 
+    margin: 0; 
+    background: url(cream_dust.png) repeat 0 0;
+    position: relative; /* to make footer in the bottom of the body*/
+    padding-bottom: 45px;  /*footer height + 10px*/
+
+
+}
+
+h1, h2 {
+	color: #334431;
+	text-align: center;
+	font-family: lucida grande;
+	text-shadow: 2px 3px 3px #ccc;
+}
+
+p {
+	font-family: Verdana;
+}
+
+hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 100%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 2px solid #252839;
+   border-bottom: 2px solid #252839;
+   border-style: solid;	
+   border-image: url(stripe.jpg) 10% round;
+}
+
+.active {
+	background-color: #6ed3cf;
+	color: white;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+}
+
+td, th {
+	text-align: left;
+	padding: 12px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
