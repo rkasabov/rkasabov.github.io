@@ -134,11 +134,14 @@ hr {
 table {
 	font-family: arial, sans-serif;
 	border-collapse: collapse;
+	margin: 0 auto; /*Center aligning*/
+	width: 100%;    /*Making width of both tables stay at 100% when resized*/
 }
 
 td, th {
 	text-align: left;
 	padding: 12px;
+	
 }
 
 tr:nth-child(even) {
